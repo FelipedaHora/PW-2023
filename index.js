@@ -22,6 +22,7 @@ function validarCampos() {
         altura.style.border = "1px solid red";
         altura.style.outline = "1px solid red";
         altura.focus();
+        
         retorno = false;
     }
     else{
@@ -32,7 +33,7 @@ function validarCampos() {
         peso.style.border = "1px solid red";
         peso.style.outline = "1px solid red";
         peso.focus();
-        
+
         retorno = false;
     }
     else {
